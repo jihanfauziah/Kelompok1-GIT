@@ -17,7 +17,7 @@ return new class extends Migration
             $table->string('email');
             $table->string('alamat');
             $table->string('tanggal');
-            $table->string('keperluan');
+            $table->text('keperluan');
             $table->timestamps();
         });
     }
