@@ -13,11 +13,11 @@ return new class extends Migration
     {
         Schema::create('buku_tamu', function (Blueprint $table) {
             $table->id();
-            $table->string('nama');
-            $table->string('email');
-            $table->string('alamat');
-            $table->string('tanggal');
-            $table->text('keperluan');
+            $table->string('Nama');
+            $table->string('Email');
+            $table->string('Alamat');
+            $table->string('Tanggal');
+            $table->text('Keperluan');
             $table->timestamps();
         });
     }
