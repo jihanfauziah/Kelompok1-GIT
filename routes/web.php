@@ -14,4 +14,3 @@ Route::get('/buku-tamu', function () {
     return view('buku-tamu');
 })->name('buku-tamu');
 
-
