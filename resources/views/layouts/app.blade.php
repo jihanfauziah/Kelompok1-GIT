@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <title>Dashboard Buku Tamu</title>
+
+  @vite(['resources/js/app.js'])
 </head>
 <body>
   <h1>Dashboard Buku Tamu</h1>
